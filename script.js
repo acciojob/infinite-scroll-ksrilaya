@@ -4,7 +4,7 @@ let i=0;
 function addoneItem(){
 	const li = document.createElement("li");
 	li.innertext=`Item ${++i}`;
-	scrollcontainer.appendchild(li);
+	scrollcontainer.appendChild(li);
 }
 for (let i=0;i<10;i++){
 	addoneItem();
